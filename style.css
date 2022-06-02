@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+body{
+  font-family: 'Poppins',sans-serif;
+  background-color: beige;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  /* border: 2px solid red; */
+}
+.navbar .ppa-logo Group img{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ppa-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* border: 2px solid black; */
+  align-items: center;
+  }
+.ppa-logo #txt{
+  height: 20px ;
+  width: 160px;
+  margin-left: 5px;
+}
+.ppa-logo img{
+  height:40px;
+  width:40px;
+}
+.about-me{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue ; */
+  width: 30%;
+  margin-top: 4%;
+  margin-left: 5%;
+
+}
+.about-me .About-web .a{
+  display: flex;
+  align-items:center;
+  /* border: 2px solid blue ; */
+}
+.about-me .About-web .a img{
+  margin :auto 5px;
+}
+.right-side{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue ; */
+  width: 50%;
+  margin-top: 4%;
+  margin-left: 10%;
+
+
+}
+.profile-picture{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  height:400px;
+  width: 400px;
+  margin-left:20%;
+
+}
+
+.profile-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* border: 2px solid black; */
+  align-items: center;
+
+}
+.def{
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.container{
+  display: flex;
+}
+
+.profile-part img{
+  height:40px;
+  width:40px;
+}
+.About-web img{
+  height:20px;
+  width:20px;
+}
+.profile-picture img{
+  height: 220px;
+  width: 220px;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.WE{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.Techs {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.Achievements{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.About-web{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-left: 7%;
+  /* border: 2px solid red; */
+}
+.horizontal{
+  border: 2px dashed black;
+  border-top: none;
+  width: 90%;
+  text-align: left;
+}
